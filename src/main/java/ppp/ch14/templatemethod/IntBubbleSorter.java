@@ -1,4 +1,4 @@
-package ppp.ch14;
+package ppp.ch14.templatemethod;
 
 import java.util.Arrays;
 

@@ -1,6 +1,7 @@
-package ppp.ch16;//import static org.junit.Assert.*;
+package ppp.ch16.singletone;//import static org.junit.Assert.*;
 
 import org.junit.Test;
+import ppp.ch16.singleton.Singleton;
 
 import java.lang.reflect.Constructor;
 
@@ -18,7 +19,7 @@ public class SingletonTest {
 
     @Test
     public void noPublicConstructors() throws Exception {
-        Class singleton = Class.forName("ppp.ch16.Singleton");
+        Class singleton = Class.forName("ppp.ch16.singleton.Singleton");
         Constructor[] constructors = singleton.getConstructors();
         assertThat(constructors.length).as("no public constructors").isEqualTo(0);
     }

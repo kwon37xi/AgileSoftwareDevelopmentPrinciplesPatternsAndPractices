@@ -1,4 +1,4 @@
-package ppp.ch16;
+package ppp.ch16.singleton;
 
 /**
  * Java의 초기화 기능을 이용한 싱글턴 패턴

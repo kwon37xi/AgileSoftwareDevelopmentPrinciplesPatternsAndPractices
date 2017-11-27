@@ -1,4 +1,4 @@
-package ppp.ch16;
+package ppp.ch16.singleton;
 
 /**
  * 기본 싱글턴 패턴 구현.

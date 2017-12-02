@@ -1,4 +1,4 @@
-package ppp.ch24.beforeobserverpattern;
+package ppp.ch24.a_beforeobserverpattern;
 
 public class MockTimeSink implements TimeSink {
     private int itsHours;
